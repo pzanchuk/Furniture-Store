@@ -17,7 +17,7 @@
 }
 
 body{
-  background: radial-gradient(circle, white, black);
+  background: radial-gradient(circle, #d8d8d8, #ffffff);
 }
 
 .align-center{
@@ -39,7 +39,7 @@ th{
 h2{
   text-align: center;
   margin-top: 45px;
-  background: -webkit-linear-gradient(#333, #eee);
+  background: -webkit-linear-gradient(#606060, #909090);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
@@ -49,12 +49,18 @@ button{
   height: 45px;
 }
 
-.header > h1{
-  font-weight: 800;
-  margin-top: 40px;
-  text-align: center;
-  font-size: 150px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+h3{
+  margin-left: 600px;
+  padding-top: 120px;
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 20px;
+  color: #d8d8d8;
+}
+
+.header{
+  height: 350px;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/05/13/28/31599e7ab793734.jpg);
+  background-size: 100% 100%;
 }

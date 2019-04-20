@@ -8,10 +8,16 @@ import {Furniture} from "./furniture-data"
 let furnitureData = new Furniture();
 let promise = furnitureData.getAllFurniture();
 
+function isDeliverable(deliverable){
+  if(deliverable === true){
+    return "Yes";
+  }
+  return "No";
+}
+
 function showAll(){
   for (let i = 0; i < 15; i++) {
     promise.then(function(response) {
-
       let resp = JSON.parse(response);
       let deliver =  resp.body.data[i].deliverable;
       $('.showFurniture').prepend(
@@ -32,12 +38,7 @@ function showAll(){
   }
 }
 
-function isDeliverable(deliverable){
-  if(deliverable === true){
-    return "Yes";
-  }
-  return "No";
-}
+
 
 
 $(document).ready(function() {
