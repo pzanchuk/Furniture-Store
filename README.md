@@ -2,7 +2,7 @@
 
 #### _3/26/2019_
 
-#### By _**Olha Wysocky and Pavel Zanchuk**_
+#### By _**Pavel Zanchuk**_
 
 ## Description
 _This is a Weather IPA practice._
