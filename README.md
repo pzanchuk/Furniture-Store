@@ -5,7 +5,7 @@
 #### By _**Pavel Zanchuk**_
 
 ## Description
-_This is a Weather IPA practice._
+_API call from furniture store. Prints out and sorts JASON data._
 
 ## Known Bugs
 
