@@ -1,4 +1,4 @@
-# _Furniture Store IPA_
+# _Furniture Store API_
 
 #### _3/26/2019_
 
